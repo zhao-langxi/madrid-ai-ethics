@@ -1,13 +1,13 @@
 # AI ethics in public services
 
 **Status:** Essay outline · high-level public frame  
-**Scope:** General principles for government-facing and civic systems — **not** clinical AI, research participant data, or IRB-governed work
+**Scope:** General principles for government-facing and civic systems — public-safe framing only; no private research or participant data
 
 ## Why this doc exists
 
 Spring 2026 coursework included EU politics and strategic management; daily life included Spanish bureaucracy and public-facing digital tools. ServeAI at IU ([PIT-UN](https://www.pit-un.org/) public-interest AI track) asks similar questions for **community organizations**: when should automation help, and when does it erode trust?
 
-This note stays at the **policy and product ethics** layer — suitable for public GitHub. It does not describe lab research, health data pipelines, or participant-facing systems.
+This note stays at the **policy and product ethics** layer — suitable for public GitHub. It does not describe private lab work, sensitive data pipelines, or participant-facing systems.
 
 ## Core claim
 
@@ -67,8 +67,8 @@ Clinic links: [ServeAI](https://serveit.luddy.indiana.edu/serve-ai/) · [serveit
 
 ## What this doc deliberately excludes
 
-- Clinical decision support, EHR integration, or health research AI
-- IRB protocols, participant identifiers, or field study instruments
+- Health-system integrations, sensitive data pipelines, or private research AI
+- Participant identifiers, field study instruments, or non-public lab protocols
 - Vendor-specific procurement documents or non-public partner data
 
 ## Open questions (to expand)

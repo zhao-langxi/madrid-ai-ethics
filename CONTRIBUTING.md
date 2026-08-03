@@ -19,8 +19,8 @@ Thank you for helping improve public-safe notes on systems, language access, and
 
 **No:**
 
-- IRB, clinical, ProHealth, or 2050 research materials
-- Private lab repo links (`jlzhao27` or similar)
+- Private research materials, participant data, or non-public lab work
+- Links to private lab repos or non-public working folders
 - Bulk personal drafts from private working folders
 - Travel reel content, itineraries, or non-public administrative details
 - AI co-author trailers on commits

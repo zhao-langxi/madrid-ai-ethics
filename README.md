@@ -11,11 +11,11 @@ I spent a real semester in Madrid: EU politics, Spanish, strategic management, a
 
 - Where systems assume you already belong (language, ID, address history, local context)
 - How civic and government-facing apps encode those assumptions
-- High-level ethical framing for AI in public services — transparency, access, accountability — without clinical or research-participant framing
+- High-level ethical framing for AI in public services — transparency, access, accountability — public-safe notes only
 
 Same throughline as my portfolio and clinic work: drawn to the unglamorous parts of systems everyone else skips. The handoff after the demo. The form that only works if you already know the unwritten steps.
 
-**Not in scope:** IRB research, clinical data, ProHealth lab work, or private lab repos. Public-safe notes only.
+**Not in scope:** Private research, participant data, or non-public lab repos. Public-safe notes only.
 
 ## Essays & outlines
 

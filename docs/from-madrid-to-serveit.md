@@ -41,7 +41,7 @@ Together they are bookmarks for how I work — not a startup pitch deck.
 
 ## LinkedIn / portfolio alignment
 
-Public LinkedIn framing (no clinical language): Informatics @ IU Luddy, ServeIT website lead, FASE MAP, Madrid semester, first-gen / bilingual thread when relevant.
+Public LinkedIn framing: Informatics @ IU Luddy, ServeIT website lead, FASE MAP, Madrid semester, first-gen / bilingual thread when relevant.
 
 If you found this repo from LinkedIn: the essays here expand themes I touch in portfolio copy — **systems that survive real users**, not travel highlights.
 
