@@ -29,7 +29,7 @@ Thank you for helping improve public-safe notes on systems, language access, and
 
 1. Open an issue describing the gap or proposed addition.
 2. Fork and branch, or ask for write access on `zhao-langxi/madrid-ai-ethics`.
-3. Keep tone plain and honest — outlines are fine; don’t invent metrics or experiences.
+3. Keep tone plain and honest ... outlines are fine; don’t invent metrics or experiences.
 4. Run a privacy check: would this belong on a public LinkedIn post? If not, don’t commit it.
 
 ## Commit authorship

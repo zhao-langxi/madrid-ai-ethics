@@ -1,17 +1,17 @@
 # AI ethics in public services
 
 **Status:** Essay outline · high-level public frame  
-**Scope:** General principles for government-facing and civic systems — public-safe framing only; no private research or participant data
+**Scope:** General principles for government-facing and civic systems ... public-safe framing only; no private research or participant data
 
 ## Why this doc exists
 
 Spring 2026 coursework included EU politics and strategic management; daily life included Spanish bureaucracy and public-facing digital tools. ServeAI at IU ([PIT-UN](https://www.pit-un.org/) public-interest AI track) asks similar questions for **community organizations**: when should automation help, and when does it erode trust?
 
-This note stays at the **policy and product ethics** layer — suitable for public GitHub. It does not describe private lab work, sensitive data pipelines, or participant-facing systems.
+This note stays at the **policy and product ethics** layer ... suitable for public GitHub. It does not describe private lab work, sensitive data pipelines, or participant-facing systems.
 
 ## Core claim
 
-AI in public services is not neutral efficiency. It encodes **who gets fast answers, who gets flagged, and who has to prove they belong** — often amplifying existing friction for outsiders.
+AI in public services is not neutral efficiency. It encodes **who gets fast answers, who gets flagged, and who has to prove they belong** ... often amplifying existing friction for outsiders.
 
 Builders should treat that as a design requirement, not a post-launch scandal.
 
@@ -19,7 +19,7 @@ Builders should treat that as a design requirement, not a post-launch scandal.
 
 ### 1. Transparency over theater
 
-Citizens should know when a decision involves automated scoring, routing, or generation — and what human override exists. “AI-powered” marketing without appeal paths is a liability.
+Citizens should know when a decision involves automated scoring, routing, or generation ... and what human override exists. “AI-powered” marketing without appeal paths is a liability.
 
 ### 2. Access before automation
 
@@ -33,7 +33,7 @@ Public systems need logs a human can review: what was submitted, what rule fired
 
 ### 4. Data minimization and purpose limitation
 
-Collect what the process requires — not what a vendor’s default form includes. Retention and deletion rules should be explainable to the person affected, not buried in a procurement appendix.
+Collect what the process requires ... not what a vendor’s default form includes. Retention and deletion rules should be explainable to the person affected, not buried in a procurement appendix.
 
 ### 5. Non-discrimination by proxy
 
@@ -41,11 +41,11 @@ Training data and proxy features (zip code, language preference, device type) ca
 
 ### 6. Staff maintainability
 
-Community clinic lesson (ServeIT): the handoff matters. Public AI tools must be operable by civil servants and partner staff **without** a vendor on permanent retainer — same bar as accessible nonprofit web.
+Community clinic lesson (ServeIT): the handoff matters. Public AI tools must be operable by civil servants and partner staff **without** a vendor on permanent retainer ... same bar as accessible nonprofit web.
 
 ## EU framing (course-informed, non-expert)
 
-`POLS-Y 350` (Politics of the European Union) provided vocabulary for multi-level governance, regulatory harmonization, and digital policy debates at the EU layer. Useful for reading headlines and white papers — **not** a claim of legal expertise.
+`POLS-Y 350` (Politics of the European Union) provided vocabulary for multi-level governance, regulatory harmonization, and digital policy debates at the EU layer. Useful for reading headlines and white papers ... **not** a claim of legal expertise.
 
 Questions worth tracking in public discourse:
 
@@ -55,7 +55,7 @@ Questions worth tracking in public discourse:
 
 ## ServeAI parallel (community scale)
 
-ServeAI focuses on **public-interest AI for nonprofits and community partners** — guides, responsible adoption, accessibility alongside automation. Different scale than national government, same ethical spine:
+ServeAI focuses on **public-interest AI for nonprofits and community partners** ... guides, responsible adoption, accessibility alongside automation. Different scale than national government, same ethical spine:
 
 | Question | Public service | Community org |
 |----------|----------------|---------------|
@@ -81,4 +81,4 @@ Clinic links: [ServeAI](https://serveit.luddy.indiana.edu/serve-ai/) · [serveit
 
 - [Systems friction abroad](./systems-friction-abroad.md)
 - [From Madrid to ServeIT](./from-madrid-to-serveit.md)
-- [How I work · part 5 — ethics as requirements](https://jadexzhao.github.io/jadexzhao/how-i-work.html)
+- [How I work · part 5 ... ethics as requirements](https://jadexzhao.github.io/jadexzhao/how-i-work.html)

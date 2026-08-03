@@ -1,17 +1,17 @@
 # Madrid · AI Ethics · Public Systems
 
-Reflection notes and essay outlines from **Spring 2026** at **Universidad Complutense de Madrid** (IU Overseas Study). Not a travel log — a working notebook on how public services, civic apps, and everyday bureaucracy feel when you are the outsider.
+Reflection notes and essay outlines from **Spring 2026** at **Universidad Complutense de Madrid** (IU Overseas Study). Not a travel log ... a working notebook on how public services, civic apps, and everyday bureaucracy feel when you are the outsider.
 
 **Author:** [Jade Zhao](https://github.com/jadexzhao) · Informatics @ IU Luddy · May 2027  
 **Semester:** Spring 2026 · Complutense, Madrid · Luddy Study Abroad & HIEP Grant
 
 ## What this repo is
 
-I spent a real semester in Madrid: EU politics, Spanish, strategic management, and the overseas-study package — lived there, took the classes, not a brochure trip. This repo collects the parts that matter for **public-interest tech** and **Informatics**:
+I spent a real semester in Madrid: EU politics, Spanish, strategic management, and the overseas-study package ... lived there, took the classes, not a brochure trip. This repo collects the parts that matter for **public-interest tech** and **Informatics**:
 
 - Where systems assume you already belong (language, ID, address history, local context)
 - How civic and government-facing apps encode those assumptions
-- High-level ethical framing for AI in public services — transparency, access, accountability — public-safe notes only
+- High-level ethical framing for AI in public services ... transparency, access, accountability ... public-safe notes only
 
 Same throughline as my portfolio and clinic work: drawn to the unglamorous parts of systems everyone else skips. The handoff after the demo. The form that only works if you already know the unwritten steps.
 
@@ -53,7 +53,7 @@ Path notes also live on [matchaxmoxie · junior](https://matchaxmoxie.github.io/
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Issues welcome for clarity, broken links, or additional public-safe framing — not for private research materials.
+See [CONTRIBUTING.md](CONTRIBUTING.md). Issues welcome for clarity, broken links, or additional public-safe framing ... not for private research materials.
 
 ## License
 

@@ -5,7 +5,7 @@
 
 ## Thesis
 
-Language is not a cosmetic layer on top of a working system. For civic and government-facing apps, **language choice is access control** — often as strong as a login wall, but invisible in the product requirements.
+Language is not a cosmetic layer on top of a working system. For civic and government-facing apps, **language choice is access control** ... often as strong as a login wall, but invisible in the product requirements.
 
 ## What I mean by “civic access”
 
@@ -17,13 +17,13 @@ Barriers that show up repeatedly abroad:
 |---------|------------------|
 | UI only in one language | Treat translation as UX, not a late string export |
 | Legal or bureaucratic Spanish with no plain summary | Plain language is an accessibility requirement |
-| Mixed-language households | `lang` attributes, screen reader behavior, character density — see portfolio i18n note |
-| Phone support as the “real” interface | If the app fails, access fails — especially for outsiders |
+| Mixed-language households | `lang` attributes, screen reader behavior, character density ... see portfolio i18n note |
+| Phone support as the “real” interface | If the app fails, access fails ... especially for outsiders |
 | PDF-only “English version” | Not equivalent to an usable English flow |
 
 ## Bilingual when the room needs it
 
-Public portfolio framing: 福州 roots, bilingual when the room needs it. Madrid made that less abstract. Elementary Spanish (`HISP-S 100`) was not fluency on arrival — it was enough to notice when systems pretended everyone already had native proficiency.
+Public portfolio framing: 福州 roots, bilingual when the room needs it. Madrid made that less abstract. Elementary Spanish (`HISP-S 100`) was not fluency on arrival ... it was enough to notice when systems pretended everyone already had native proficiency.
 
 That is the same instinct behind mixed-language DOM work at ServeIT: **mark language in the structure**, don’t leave assistive tech to guess.
 
@@ -33,10 +33,10 @@ Consumer apps optimize for engagement. Civic apps optimize for **compliance with
 
 Design implications:
 
-1. **Progress visibility** — Where am I in the process? What happens next?
-2. **Recoverable errors** — Save state; don’t wipe the form on one bad field
-3. **Human escalation path** — A real person, a clear case ID, not a chatbot loop
-4. **Offline / paper parity** — Not everyone lives inside a perfect mobile signal or app ecosystem
+1. **Progress visibility** ... Where am I in the process? What happens next?
+2. **Recoverable errors** ... Save state; don’t wipe the form on one bad field
+3. **Human escalation path** ... A real person, a clear case ID, not a chatbot loop
+4. **Offline / paper parity** ... Not everyone lives inside a perfect mobile signal or app ecosystem
 
 ## WCAG overlap (public-interest tech)
 
