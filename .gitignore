@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build output
+dist/
+build/
+.next/
+out/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+
+# OS & editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.code-workspace
+
+# Logs & caches
+*.log
+npm-debug.log*
+.cache/
+.parcel-cache/
+.turbo/
+
+# Test / coverage
+coverage/
+.nyc_output/
+
+# Local drafts (keep private notes out of public repo)
+drafts/
+private/
+*.local.md
+journal/
+photos/
