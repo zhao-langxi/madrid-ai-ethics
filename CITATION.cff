@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "madrid-ai-ethics: systems friction and outsider impact in civic digital services (research notes)"
+message: "If you cite this work, please cite the repository and treat claims as reflective research notes, not validated experimental results."
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Jade
+    email: jadexzhao@outlook.com
+    affiliation: "Indiana University Luddy"
+repository-code: "https://github.com/zhao-langxi/madrid-ai-ethics"
+url: "https://github.com/zhao-langxi/madrid-ai-ethics"
+license: MIT
+date-released: "2026-08-06"
+abstract: >
+  Public research notes locking a falsifiable claim about systems friction
+  disadvantaging outsiders in civic digital services, with a pattern library
+  from a Madrid study-abroad semester and an Outsider Impact Review template.
+  Reflective practice only; no fabricated metrics or controlled-study results.
+keywords:
+  - systems friction
+  - digital government
+  - language access
+  - public-interest AI
+  - reflective practice
