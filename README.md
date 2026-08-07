@@ -6,6 +6,14 @@ Reflection notes and research scaffold from **Spring 2026** at **Universidad Com
 **Semester:** Spring 2026 · Complutense, Madrid · Luddy Study Abroad & HIEP Grant  
 **License:** [MIT](LICENSE) · personal research notes · **not** Serve-AI materials by default
 
+## Lineage · where I come from
+
+I’m a Chinese American woman who grew up in Greenfield, Indiana. My mom drove me to downtown Indianapolis; I fell in love with the library there ... learned to read, and worked through what was hardest. She made me two hard-boiled eggs every day before work. I hated the sulfur aftertaste; as an adult I realized she wanted me to grow in height and in brain power. In middle school I signed up for robotics and learned automata.
+
+I come from wanting tools and systems that other people can remake ... not just admire. That is Scratch spirit, **not Scratch Team, and not MIT**. Same instinct in Madrid as a temporary outsider, and in ServeIT handoffs that outlast the student. Not a new model or benchmark win ... friction as a first-class design input. Public, reproducible, pre-slop. Engineering is for everyone.
+
+Full lineage + claim lock: [`writeup/CLAIM.md`](writeup/CLAIM.md).
+
 ## Claim (locked)
 
 Systems friction in public and civic digital services systematically disadvantages outsiders (non-native speakers, new arrivals, first-time users); treating this friction as a first-class design requirement ... rather than a post-launch accessibility fix ... produces more accountable AI and digital public services.

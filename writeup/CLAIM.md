@@ -4,6 +4,12 @@
 **Author:** Jade Zhao · Informatics @ IU Luddy  
 **Method now:** reflective practice + pattern library + reusable artifact (not yet a formal empirical study)
 
+## Lineage · where I come from
+
+I’m a Chinese American woman who grew up in Greenfield, Indiana. My mom drove me to downtown Indianapolis; I fell in love with the library there ... learned to read, and worked through what was hardest. She made me two hard-boiled eggs every day before work. I hated the sulfur aftertaste; as an adult I realized she wanted me to grow in height and in brain power. In middle school I signed up for robotics and learned automata.
+
+I come from wanting tools and systems that other people can remake ... not just admire. That is Scratch spirit, **not Scratch Team, and not MIT**. Same instinct when I was a temporary outsider in Madrid reading civic systems for friction, and when ServeIT hands a nonprofit a site they can keep after the student leaves. I am not claiming a new model or a benchmark win. I am claiming that temporary high-agency outsiders are high-signal sensors for civic digital systems, and that the friction they hit should be treated as a first-class design input. Public, reproducible, pre-slop. Engineering is for everyone.
+
 ## One-sentence claim
 
 Systems friction in public and civic digital services systematically disadvantages outsiders (non-native speakers, new arrivals, first-time users); treating this friction as a first-class design requirement ... rather than a post-launch accessibility fix ... produces more accountable AI and digital public services.
