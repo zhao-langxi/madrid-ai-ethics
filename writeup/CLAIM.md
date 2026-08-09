@@ -148,5 +148,6 @@ Solo drafting is fine for scaffold and claim lock. Before treating the note as s
 
 1. Own related-work gap using [`references.md`](../references.md) seed + her own search ... Day 2–4
 2. Field-test [Outsider Impact Review](../artifacts/outsider-impact-review.md) on 2 systems ... Day 4–7
-3. Expand [`paper.md`](./paper.md) ... Day 7–10
-4. PDF export only after a real paper draft exists
+3. Keep [`paper.md`](./paper.md) aligned with TeX after any claim edits
+4. Dual-review kill test before any venue framing ... not yet run
+5. Outside read (peer / mentor / clinic staff) before submission framing

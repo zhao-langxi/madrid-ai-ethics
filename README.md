@@ -88,9 +88,11 @@ Full lock + falsifiability: [`writeup/CLAIM.md`](writeup/CLAIM.md). Overview: [`
 | Day 1–2 claim + structure | done |
 | Abstract draft | done (`writeup/abstract.md`) |
 | Outsider Impact Review template | done (`artifacts/`) |
+| Portfolio writeup PDF | done (`writeup/systems-friction-writeup.pdf`) ... independent note, **not** peer-reviewed |
+| Long-term AI growth discussion | done in PDF + [AI ethics essay](docs/ai-ethics-public-services.md) (reflective; no forecasts as fact) |
 | Related-work deep read | Jade owns (`references.md` seed) |
 | Observation / dual-review kill test | not run |
-| `paper.pdf` | skipped until a real paper draft exists |
+| Venue / arXiv submit | not yet |
 
 Method now: reflective practice + patterns + artifact. **No invented metrics.** See [`writeup/EVALUATION-BAR.md`](writeup/EVALUATION-BAR.md).
 
@@ -98,12 +100,13 @@ Method now: reflective practice + patterns + artifact. **No invented metrics.** 
 
 1. [`RESEARCH.md`](RESEARCH.md) · problem, method, status  
 2. [`writeup/CLAIM.md`](writeup/CLAIM.md) · claim, patterns, falsifiability  
-3. [`writeup/abstract.md`](writeup/abstract.md) · honest abstract draft  
-4. [`artifacts/outsider-impact-review.md`](artifacts/outsider-impact-review.md) · reusable one-pager  
-5. [`docs/`](docs/) · earlier essays  
-6. [`references.md`](references.md) · prior-art seed  
-7. [`writeup/paper.md`](writeup/paper.md) · outline stubs  
-8. [`writeup/PUBLISHING.md`](writeup/PUBLISHING.md) · future venues (not submitted)
+3. [`writeup/systems-friction-writeup.pdf`](writeup/systems-friction-writeup.pdf) · fuller portfolio writeup (PDF)  
+4. [`writeup/abstract.md`](writeup/abstract.md) · honest abstract draft  
+5. [`artifacts/outsider-impact-review.md`](artifacts/outsider-impact-review.md) · reusable one-pager  
+6. [`docs/`](docs/) · essays (including long-horizon AI)  
+7. [`references.md`](references.md) · prior-art seed  
+8. [`writeup/paper.md`](writeup/paper.md) · outline aligned with TeX  
+9. [`writeup/PUBLISHING.md`](writeup/PUBLISHING.md) · future venues (not submitted)
 
 ## Essays & outlines
 
@@ -111,8 +114,12 @@ Method now: reflective practice + patterns + artifact. **No invented metrics.** 
 |-----|-------|
 | [docs/systems-friction-abroad.md](docs/systems-friction-abroad.md) | Systems friction when you are new to a country |
 | [docs/language-and-civic-access.md](docs/language-and-civic-access.md) | Language, mixed-language UI, and civic app access |
-| [docs/ai-ethics-public-services.md](docs/ai-ethics-public-services.md) | AI ethics in public services (general frame) |
+| [docs/ai-ethics-public-services.md](docs/ai-ethics-public-services.md) | AI ethics in public services + long-term AI growth (reflective) |
 | [docs/from-madrid-to-serveit.md](docs/from-madrid-to-serveit.md) | Madrid takeaways → ServeIT / accessible public-interest tech |
+
+## Long-term AI growth (honest bar)
+
+The writeup and AI-ethics essay argue that as tools proliferate over years, **friction compounds** when automation lands on a broken access baseline; capability growth is **not** automatic inclusion; Serve-AI’s community-scale framing (access alongside automation, human override, honest data scope) is the practice rhyme. Explicitly **not** claimed: market sizes, % growth rates, timelines as fact, longitudinal adoption curves, lab results.
 
 ## Practice bridge · Serve-AI (not relicensing)
 

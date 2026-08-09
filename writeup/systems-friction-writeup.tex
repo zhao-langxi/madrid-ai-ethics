@@ -53,18 +53,22 @@ Jade Zhao\\
     This independent research note locks a falsifiable claim: treating outsider
     friction as a first-class design requirement, rather than a post-launch
     accessibility patch, is a necessary input for accountable civic digital
-    services and public-interest automation. Method: reflective pattern
-    extraction from a Spring 2026 semester abroad in Madrid (Complutense / IU
-    Overseas Study), recorded as a public-safe pattern library in the
-    \texttt{madrid-ai-ethics} repository, plus a reusable Outsider Impact Review
-    one-pager for builders. Contribution at this stage is the claim, five
-    observed patterns, the review artifact, and explicit limits (single observer,
-    one city, reflective method, no controlled trial). Adjacent literature on
-    administrative literacy, administrative burden, and WCAG baselines documents
-    related harms; the operational gap targeted here is a builder-facing
-    pre-automation gate. No quantitative validation is claimed. A minimal dual-review
-    kill test is specified for later work. This PDF is a portfolio-style writeup,
-    not a peer-reviewed publication and not IU or clinic research output.
+    services and for public-interest automation as AI tools proliferate over
+    years. Method: reflective pattern extraction from a Spring 2026 semester
+    abroad in Madrid (Complutense / IU Overseas Study), recorded as a
+    public-safe pattern library in the \texttt{madrid-ai-ethics} repository,
+    plus a reusable Outsider Impact Review one-pager for builders. Contribution
+    at this stage is the claim, five observed patterns with concrete mechanisms,
+    the review artifact, a grounded discussion of long-horizon AI growth
+    (capability growth is not automatic inclusion; friction compounds when
+    automation lands on a broken access baseline), and explicit limits (single
+    observer, one city, reflective method, no controlled trial, no market
+    forecasts). Adjacent literature on administrative literacy, administrative
+    burden, and WCAG baselines documents related harms; the operational gap
+    targeted here is a builder-facing pre-automation gate. No quantitative
+    validation is claimed. A minimal dual-review kill test is specified for
+    later work. This PDF is a portfolio-style writeup, not a peer-reviewed
+    publication and not IU or clinic research output.
     \end{abstract}
     \vspace{0.75em}
   \end{@twocolumnfalse}
@@ -78,12 +82,20 @@ task), newcomers experience the same interface as a wall. That wall is easy to
 misread as personal failure. This note treats it as a design signal.
 
 \textbf{Situation.} Spring 2026, the author lived and studied in Madrid through
-IU Overseas Study at Universidad Complutense. Coursework supplied vocabulary for
-institutional design; daily life supplied ground truth for how civic, university,
-commercial, and transit systems meet someone who does not yet belong. Parallel
-clinic observation at ServeIT made the same failure modes visible in nonprofit
-handoffs: tools built for the maintainer's mental model, not the visitor's first
-visit~\cite{serveit}.
+IU Overseas Study at Universidad Complutense. Coursework
+(\texttt{POLS-Y~350} Politics of the European Union; \texttt{HISP-S~100}
+Elementary Spanish; \texttt{BUS-J~306} Strategic Management and Leadership; plus
+the overseas study package) supplied vocabulary for institutional design and
+multi-level governance. Daily life supplied ground truth for how civic,
+university, commercial, and transit systems meet someone who does not yet
+belong. Observation was organized by layer: civic / government-facing;
+university; commercial apps; transit and utilities---asking who the form is
+written for and what breaks when the user is new. Parallel clinic observation
+at ServeIT made the same failure modes visible in nonprofit handoffs: tools
+built for the maintainer's mental model, not the visitor's first
+visit~\cite{serveit}. A restaurant-floor parallel remains useful: a system
+either survives contact with a real customer or it does not; public services
+are customer-facing systems too, with higher stakes and often worse error UX.
 
 \textbf{Gap.} Accessibility practice (for example WCAG~2.1 baselines used in
 clinic work) catches many markup and interaction failures~\cite{wcag21}. A
@@ -92,7 +104,8 @@ local context, sequencing, and language-as-access. Administrative literacy and
 administrative burden research documents related costs for migrants and claimants
 in digital welfare systems~\cite{safarov2023,moynihan2015}. What those bodies of
 work do not fully supply for student and clinic builders is a portable
-pre-ship gate that can stop automation when baseline access fails.
+pre-ship gate that can stop automation when baseline access fails---especially
+as generative tools become easier to bolt onto broken flows.
 
 \textbf{Claims.} Stated as claims, not results:
 \begin{enumerate}
@@ -101,13 +114,16 @@ pre-ship gate that can stop automation when baseline access fails.
         Madrid reflective notes (suggestive, not causal proof).
   \item Treating that friction as a first-class design input, via a reusable
         Outsider Impact Review, is a practice bridge toward more accountable
-        public digital services and public-interest AI adoption.
+        public digital services and public-interest AI adoption over time.
+  \item Long-horizon AI capability growth does not automatically produce
+        inclusion; without access-before-automation discipline, friction and
+        ``who the system assumes you are'' compound as tools proliferate.
   \item The current method is reflective practice with an explicit kill test;
         no controlled experiment results are claimed here.
 \end{enumerate}
 Section~2 situates prior themes; Section~3 describes method and design
-principles; Section~4 reports observed patterns; Section~5 states limits;
-Section~6 concludes.
+principles; Section~4 reports observed patterns; Section~5 discusses long-term
+AI growth; Section~6 states limits; Section~7 concludes.
 
 \section{Related Work}
 Three clusters frame the gap. This is not a complete literature survey; deep
@@ -116,9 +132,11 @@ reading remains owned by the author beyond the sources cited below.
 \textbf{Accessibility and comprehensibility.} Clinic practice uses WCAG~2.1 as a
 baseline for keyboard paths, contrast, structure, and related success
 criteria~\cite{wcag21}. Language access and plain-language defaults sit adjacent
-to comprehensibility even when checklists focus on markup. That overlap is
-necessary but not sufficient when the primary task is only completable after
-hidden local prerequisites.
+to comprehensibility even when checklists focus on markup. Mixed-language
+households also need structural \texttt{lang} marking rather than a single page
+default---otherwise assistive technology guesses. That overlap is necessary but
+not sufficient when the primary task is only completable after hidden local
+prerequisites.
 
 \textbf{Administrative literacy, burden, and migrant access.} Safarov~\cite{safarov2023}
 analyzes Russian-speaking migrants navigating digital public services in Finland
@@ -137,10 +155,15 @@ builder-facing requirement that outsider friction gate automation before launch.
 \textbf{Public-interest AI and accountable automation.} ServeIT / Serve-AI clinic
 instincts (human review, honest handoffs, accessibility before automation)
 rhyme with outsider friction as a ship/no-ship input~\cite{serveai,serveit}.
-Policy vocabulary about public-sector automated decision-making is useful for
-reading discourse; it rarely supplies a one-pager students can run before
-shipping clinic or civic automation. This note's artifact targets that
-operational gap.
+Serve-AI is ServeIT Clinic's public-interest AI track (PIT-UN): practical
+adoption help for community organizations so generative tools do not break trust
+or accessibility. Policy vocabulary about public-sector automated
+decision-making (including EU-layer discourse encountered in coursework) is
+useful for reading headlines; it rarely supplies a one-pager students can run
+before shipping clinic or civic automation. This note's artifact targets that
+operational gap. EU AI Act categories and ``digital single market'' rhetoric are
+tracked as open public-discourse questions, not as legal conclusions from this
+author.
 
 \section{Approach}
 Method now: reflective practice and pattern extraction from lived systems use
@@ -175,6 +198,8 @@ notes under MIT.
   \item Sequencing stated in the interface; no hidden prerequisite steps.
   \item Recoverable errors that name the fix and preserve state.
   \item Human escalation with case identity when the digital path fails.
+  \item Transparency over theater: when a decision involves automated scoring,
+        routing, or generation, citizens should know what human override exists.
   \item No assumed prior belonging: design for the first-time outsider, then
         add automation only if the access baseline works.
 \end{itemize}
@@ -184,33 +209,43 @@ Patterns below appeared repeatedly in lived use of civic, university,
 commercial, and transit/utility systems in Madrid. They \emph{suggest} design
 failure modes; they do not prove causation beyond this observer's semester.
 Recording method: public-safe reflective notes and essay outlines in
-\texttt{madrid-ai-ethics}. Observation was organized by layer (civic /
-government-facing; university; commercial apps; transit and utilities), asking
-who the form is written for and what breaks when the user is new.
+\texttt{madrid-ai-ethics}.
 
 \begin{enumerate}
   \item \textbf{Assumed local context.} Forms and apps expect address history,
         bank relationships, or national ID workflows a newcomer has never used.
+        Commercial and payment profiles that assume a domestic phone number or
+        local bank relationship fail in ways that look like user error.
   \item \textbf{Unwritten sequencing.} The flow works only if step~B happened
-        before step~A, but the interface does not say so.
+        before step~A, but the interface does not say so. University and civic
+        offices often have a single office that actually handles a case; discovering
+        it is itself unwritten process knowledge.
   \item \textbf{Language as access control.} Spanish-only defaults; ``English
         support'' that is a PDF rather than a completable interface; language
         choice functions like a login wall for task completion. Mixed-language
         households also need structural \texttt{lang} marking rather than a single
-        page default.
+        page default. Elementary Spanish coursework was not fluency on arrival; it
+        was enough to notice when systems pretended everyone already had native
+        proficiency.
   \item \textbf{Hours and channels that do not match outsider life.} In-person
         only, narrow windows, little or no status tracking after submit,
         especially hard for students and new arrivals. When phone support becomes
-        the ``real'' interface, app failure equals access failure.
+        the ``real'' interface, app failure equals access failure---especially for
+        outsiders who cannot fall back on family word-of-mouth.
   \item \textbf{Error messages that blame the user.} ``Invalid document'' instead
         of naming the fix (for example a different scan format); recoverable
-        error UX is missing when stakes are highest.
+        error UX is missing when stakes are highest. Wiping form state on one bad
+        field raises the cost further when the user did not choose the workflow.
 \end{enumerate}
 
 Civic apps differ from consumer apps in a material way: the user did not choose
 the workflow and is trying not to miss a deadline. That raises the cost of
 missing progress visibility, wiping form state on one bad field, or trapping the
-user in a chatbot loop without a reopen path.
+user in a chatbot loop without a reopen path. Design implications that follow
+from the language and civic-access notes: progress visibility (where am I; what
+happens next); recoverable errors that preserve state; a human escalation path
+with a clear case ID; and honest offline / paper parity where not everyone lives
+inside a perfect mobile signal.
 
 Same failure modes show up in ServeIT clinic observation: tools built for the
 maintainer's mental model, not the visitor's first visit. Evaluation bar for
@@ -219,6 +254,51 @@ happy-path / WCAG-style pass to two public civic flows; if the outsider pass
 finds nothing the happy-path pass misses, the ``first-class requirement'' half
 of the claim is in serious trouble for this artifact. No baselines, sample
 sizes, or percentage improvements are claimed here.
+
+\section{Long-term AI Growth}
+This section is reflective portfolio analysis, not a longitudinal empirical
+study and not a market forecast. No adoption percentages, capability timelines,
+or growth rates are asserted as fact. The question is what the Madrid pattern
+library implies if AI tools keep proliferating in civic and community systems
+over years rather than demo week.
+
+\textbf{Friction compounds as tools proliferate.} When automation is added to a
+flow that already assumes local belonging, the outsider does not get a shortcut;
+they get a second failure mode---opaque routing, a chatbot loop, or a generated
+answer that cannot reopen a case. The repository's AI-ethics essay states the
+spine plainly: access before automation. If the baseline service is already
+unusable for non-native speakers or first-time users, adding a chatbot does not
+fix access. Long-horizon capability growth makes that mistake cheaper to ship
+and harder to reverse once staff and citizens treat the automated path as the
+default.
+
+\textbf{Who the system assumes you are.} Outsider disadvantage is not only about
+missing a translation string. It is about encoded assumptions---address history,
+national ID, bank relationships, language fluency, office hours that match
+insider schedules. As more decisions involve automated scoring, routing, or
+generation, those assumptions can harden into proxies (language preference,
+device type, incomplete profile fields) without anyone naming them as design
+choices. Transparency without a usable human override is theater; accountability
+requires logs a human can review and a path to contest the outcome.
+
+\textbf{Public-interest AI at community scale (Serve-AI rhyme).} Serve-AI's
+public framing is responsible adoption for community organizations:
+accessibility alongside automation, human review before publish, and trust that
+survives contact with real clients~\cite{serveai}. Different scale than national
+government, same ethical spine: who is harmed if this fails; can staff override
+the model; is the data scope honest. Over years, small organizations will keep
+meeting vendor defaults and demo-week tools. The durable question is not whether
+models get more capable; it is whether partners can maintain, disclose, and
+override AI-touched workflows without a specialist on permanent retainer.
+
+\textbf{Growth of capability $\neq$ automatic inclusion.} Accessibility,
+language access, staff capacity, and recoverable error design remain
+bottlenecks even if model performance improves. A more fluent generator can
+still amplify PDF-only ``language support,'' blame-the-user errors, or
+sequencing that only locals know. Inclusion is a maintenance and governance
+problem as much as a model problem. Treating outsider friction as a first-class
+pre-automation gate is one way to keep long-term AI adoption accountable without
+pretending this note measured adoption curves.
 
 \section{Discussion and Limitations}
 Limitations are part of the claim package. Single observer: selection and
@@ -229,20 +309,24 @@ details that might strengthen or nuance a finding. Related-work deep reading is
 still owned by the author beyond the citations above; a seed list in the source
 repository is not a finished survey. This note does not claim legal or policy
 expertise (EU coursework supplied vocabulary for reading public discourse only),
-statistical generalizability, or that automation always harms outsiders.
-Poorly scoped automation \emph{can} amplify gaps; that is a design risk, not a
-theorem. It is not IRB, clinical, or health-system research. Affiliation lines
-name where the author studies; they do not mean Indiana University, ServeIT
-Clinic, or any lab endorses or owns this content. Readers should not treat this
-PDF as a published conference paper or as official IU research.
+statistical generalizability, market sizes, percentage growth rates, or that
+automation always harms outsiders. Poorly scoped automation \emph{can} amplify
+gaps; that is a design risk, not a theorem. It is not IRB, clinical, or
+health-system research. Affiliation lines name where the author studies; they do
+not mean Indiana University, ServeIT Clinic, or any lab endorses or owns this
+content. Readers should not treat this PDF as a published conference paper or as
+official IU research. The long-term AI discussion above is interpretive synthesis
+from existing public notes, not longitudinal evidence.
 
 \section{Conclusion}
 Outsiders hit civic digital systems where design assumes belonging. This
 independent research note locks that friction as a first-class design concern,
-documents five public-safe patterns from Madrid reflective practice, and offers
-an Outsider Impact Review template for builders before automation. The next
-empirical step is the dual-review kill test, not invented metrics. Until that
-runs, the contribution is the claim, the patterns, the artifact, and the limits.
+documents five public-safe patterns from Madrid reflective practice with
+concrete mechanisms, offers an Outsider Impact Review template for builders
+before automation, and argues that long-horizon AI growth without access-first
+discipline compounds outsider disadvantage. The next empirical step is the
+dual-review kill test, not invented metrics. Until that runs, the contribution
+is the claim, the patterns, the artifact, the AI-growth framing, and the limits.
 
 \section*{Acknowledgments}
 Independent personal research notes. Drafting and structure were AI-assisted;

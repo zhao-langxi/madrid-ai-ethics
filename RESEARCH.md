@@ -28,9 +28,11 @@ Reflective practice + pattern extraction from Spring 2026 Madrid notes. Explorat
 | Claim locked | yes |
 | Pattern library (from existing docs) | yes |
 | Abstract draft | yes (`writeup/abstract.md`) |
+| Portfolio writeup PDF | yes (`writeup/systems-friction-writeup.pdf`) ... independent note, not peer-reviewed |
+| Long-term AI growth section | yes (reflective; no forecasts as fact) |
 | Related-work deep read | Jade owns (seed in `references.md`) |
 | Dual-review kill test | planned / not run |
-| PDF / arXiv | not yet |
+| arXiv / venue submit | not yet |
 
 ## Evaluation bar
 

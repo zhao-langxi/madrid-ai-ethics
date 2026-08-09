@@ -49,9 +49,15 @@ If you found this repo from LinkedIn: the essays here expand themes I touch in p
 - [Briefcase](https://jadexzhao.github.io/jadexzhao/)
 - [@zhao.langxi](https://instagram.com/zhao.langxi) ... campus / culture lane; not a GitHub handle
 
+## Long-horizon AI (same instinct)
+
+Madrid’s outsider patterns and ServeIT’s handoff discipline share one long-term AI implication: **growth of capability is not automatic inclusion**. If baseline access fails for newcomers, automation adds a second wall. Serve-AI’s public framing ... accessibility alongside automation, human review, honest data scope ... is the community-scale version of access-before-automation. Over years, the question is whether partners and civil servants can maintain, disclose, and override AI-touched workflows without a specialist on permanent retainer.
+
+Fuller writeup: [`writeup/systems-friction-writeup.pdf`](../writeup/systems-friction-writeup.pdf) · essay: [AI ethics in public services](./ai-ethics-public-services.md).
+
 ## Slow progress bar
 
-These docs are **outlines and reflection**, not finished papers. I add to them when a pattern clarifies ... same “ship it slow” rule as code.
+These docs are **outlines and reflection**, plus an independent portfolio PDF ... not peer-reviewed papers. I add to them when a pattern clarifies ... same “ship it slow” rule as code.
 
 Contributions welcome for clarity and public-safe sources. See [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -60,3 +66,4 @@ Contributions welcome for clarity and public-safe sources. See [CONTRIBUTING.md]
 - [Systems friction abroad](./systems-friction-abroad.md)
 - [Language and civic access](./language-and-civic-access.md)
 - [AI ethics in public services](./ai-ethics-public-services.md)
+- [Staff-maintainable local digital](https://github.com/zhao-langxi/local-digital)
