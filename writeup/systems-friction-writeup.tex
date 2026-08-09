@@ -1,0 +1,235 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{times}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{abstract}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+\setlength{\columnsep}{0.3in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[C]{\thepage}
+
+\title{\vspace{-0.5em}\LARGE\bfseries Systems Friction as a First-Class Design
+Requirement for Outsiders in Civic Digital Services\\
+\large Independent research note (portfolio writeup · not peer-reviewed)}
+
+\author{
+Jade Zhao\\
+\small Informatics student, Luddy School (affiliation for contact only)\\
+\small Indiana University Bloomington\\
+\small \texttt{jlzhao@iu.edu}\\
+\small\textit{Independent personal research ... not IU-endorsed or lab output}
+}
+
+\date{}
+
+\begin{document}
+\twocolumn[
+  \begin{@twocolumnfalse}
+    \maketitle
+    \begin{abstract}
+    \noindent
+    Civic and public digital services often assume the user already has local
+    context, language fluency, and unwritten process knowledge. For outsiders
+    ... non-native speakers, new arrivals, and first-time users ... that
+    assumption shows up as systems friction: stalled forms, PDF-only
+    ``language support,'' blaming error messages, and channels that do not
+    match outsider schedules. This independent research note locks a
+    falsifiable claim that treating such friction as a first-class design
+    requirement, rather than a post-launch accessibility fix, supports more
+    accountable digital public services and public-interest AI adoption.
+    Method: reflective pattern extraction from a Spring 2026 semester abroad
+    in Madrid (Complutense / IU Overseas Study), documented as a public-safe
+    pattern library, plus a reusable Outsider Impact Review one-pager for
+    builders. Contribution at this stage is the claim, the patterns, the
+    artifact template, and explicit limitations (single observer, one city,
+    no controlled trial). No quantitative validation is claimed; a minimal
+    kill test is specified for later work. This is a portfolio-style writeup,
+    not a peer-reviewed publication, and it is not IU or lab research output.
+    \end{abstract}
+    \vspace{1em}
+  \end{@twocolumnfalse}
+]
+
+\section{Introduction}
+Public services increasingly run through forms, apps, and portals. When those
+systems are designed for people who already know the local script ... which
+office comes first, which document format is accepted, which language completes
+the task ... newcomers experience the same interface as a wall. That wall is
+easy to misread as personal failure. This note treats it as a design signal.
+
+I spent Spring 2026 living and studying in Madrid through IU Overseas Study at
+Universidad Complutense. Coursework supplied vocabulary for institutional
+design; daily life supplied ground truth for how civic, university, commercial,
+and transit systems meet someone who does not yet belong. Parallel clinic work
+at ServeIT made the same failure modes visible in nonprofit handoffs: tools
+built for the maintainer's mental model, not the visitor's first visit.
+
+Existing accessibility practice (for example WCAG baselines used in clinic
+work) catches many markup and interaction failures, but a happy-path or
+checklist pass can still miss outsider-specific assumptions about local
+context, sequencing, and language-as-access. Closely related discussions of
+migrant administrative literacy, language barriers in e-government, and
+linguistic fairness in AI document related harms; the gap this note targets is
+narrower: a builder-facing requirement that outsider friction gate automation
+and public digital changes \emph{before} launch, not only as a late
+translation or accessibility patch.
+
+This writeup's contributions, stated as claims:
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+  \item Systems friction in civic digital services systematically disadvantages
+        outsiders; the five patterns below are the working library from Madrid
+        notes (suggestive, not causal proof).
+  \item Treating that friction as a first-class design input ... via a reusable
+        Outsider Impact Review ... is a practice bridge toward more accountable
+        public digital services and public-interest AI adoption.
+  \item The current method is reflective practice with an explicit kill test;
+        no controlled experiment results are claimed here.
+\end{itemize}
+Section~2 situates prior themes; Section~3 describes method and design
+principles; Section~4 reports observed patterns; Section~5 discusses limits;
+Section~6 concludes.
+
+\section{Related Work}
+Three clusters frame the gap without claiming a complete literature survey
+(deep reading remains in progress in the source repo's seed list).
+
+\textbf{Accessibility and comprehensibility.} Clinic practice uses WCAG~2.1 as
+a baseline for keyboard paths, contrast, and structure~\cite{wcag21}. Language
+access and plain-language defaults sit adjacent to comprehensibility even when
+checklists focus on markup. That overlap is necessary but not sufficient when
+the primary task is only completable after hidden local prerequisites.
+
+\textbf{Language, literacy, and civic access.} Public notes in this project
+treat language choice as access control for task completion: Spanish-only
+defaults, PDF-only ``English support,'' and mixed-language households that need
+structural \texttt{lang} marking rather than a single page default. Adjacent
+prior work on migrant administrative literacy and e-government language
+barriers documents related burdens; this note does not claim to replace that
+literature, only to reframe friction as a pre-automation design gate for
+builders.
+
+\textbf{Public-interest AI and accountable automation.} Serve-AI / ServeIT
+clinic instincts (human review, honest handoffs, accessibility before
+automation) rhyme with outsider friction as a ship/no-ship input. Policy and
+fairness discussions of public-sector automated decision-making supply
+accountability vocabulary; they rarely supply a portable one-pager students can
+run before shipping clinic or civic automation. This note's artifact is aimed
+at that operational gap.
+
+\section{Approach / System}
+Method now: reflective practice and pattern extraction from lived systems use
+during one semester abroad, recorded as public-safe notes (no private
+administrative detail). Exploration versus confirmation are kept separate in
+the research log; confirmation experiments are planned, not run. The primary
+artifact is an Outsider Impact Review one-pager: before shipping a civic flow
+or adding automation, review assumed local context, unwritten sequencing,
+language-as-access, hours and channels, recoverable errors, and automation
+risk (whether AI would amplify those gaps).
+
+Practice bridge only: ServeIT / Serve-AI clinic work is a rhyme, not a
+relicensing of those materials. Serve-AI project materials are CC~BY-SA~4.0
+with project credit; this madrid writeup and repo remain independent personal
+notes under MIT.
+
+\subsection{Design Principles}
+\begin{itemize}[leftmargin=*,itemsep=2pt]
+  \item Plain-language and completable language paths for the primary task
+        (not PDF-only ``support'').
+  \item Sequencing stated in the interface; no hidden prerequisite steps.
+  \item Recoverable errors that name the fix and preserve state.
+  \item Human escalation with case identity when the digital path fails.
+  \item No assumed prior belonging: design for the first-time outsider, then
+        add automation only if the access baseline works.
+\end{itemize}
+
+\section{Findings / Evaluation}
+Patterns below appeared repeatedly in lived use of civic, university,
+commercial, and transit/utility systems in Madrid. They \emph{suggest} design
+failure modes; they do not prove causation beyond this observer's semester.
+Recording method: public-safe reflective notes and essay outlines in the
+\texttt{madrid-ai-ethics} repository.
+
+\begin{enumerate}[leftmargin=*,itemsep=3pt]
+  \item \textbf{Assumed local context.} Forms and apps expect address history,
+        bank relationships, or national ID workflows a newcomer has never used.
+  \item \textbf{Unwritten sequencing.} The flow works only if step~B happened
+        before step~A, but the interface does not say so.
+  \item \textbf{Language as access control.} Spanish-only defaults; ``English
+        support'' that is a PDF rather than a completable interface; language
+        choice functions like a login wall for task completion.
+  \item \textbf{Hours and channels that do not match outsider life.} In-person
+        only, narrow windows, little or no status tracking after submit ...
+        especially hard for students and new arrivals.
+  \item \textbf{Error messages that blame the user.} ``Invalid document''
+        instead of naming the fix (for example a different scan format);
+        recoverable error UX is missing when stakes are highest.
+\end{enumerate}
+
+Same failure modes show up in ServeIT clinic observation: tools built for the
+maintainer's mental model, not the visitor's first visit. Evaluation bar for
+later work (not yet run): apply Outsider Impact Review and a parallel
+happy-path / WCAG-style pass to two public civic flows; if the outsider pass
+finds nothing the happy-path pass misses, the ``first-class requirement'' half
+of the claim is in serious trouble for this artifact. No baselines, sample
+sizes, or percentage improvements are claimed here.
+
+\section{Discussion}
+Limitations are part of the claim package. Single observer: selection and
+confirmation bias are real. One city and one semester (Madrid, Spring 2026):
+other municipalities and seasons may differ. Reflective method: pattern
+extraction from lived use, not lab measurement. Public-safe scope omits private
+details that might strengthen or nuance a finding. Related-work deep reading is
+still owned by the author; the seed list is not a finished survey. This note
+does not claim legal or policy expertise, statistical generalizability, or that
+automation always harms outsiders ... poorly scoped automation \emph{can}
+amplify gaps; that is a design risk, not a theorem. It is not IRB, clinical, or
+health-system research. Affiliation lines name where the author studies; they
+do not mean Indiana University, ServeIT Clinic, or any lab endorses or owns
+this content. Readers should not treat this PDF as a published conference paper
+or as official IU research.
+
+\section{Conclusion}
+Outsiders hit civic digital systems where design assumes belonging. This
+independent research note locks that friction as a first-class design concern,
+documents five public-safe patterns from Madrid reflective practice, and offers
+an Outsider Impact Review template for builders before automation. The next
+empirical step is the dual-review kill test ... not invented metrics. Until
+that runs, the contribution is the claim, the patterns, the artifact, and the
+limits.
+
+\section*{Acknowledgments}
+Independent personal research notes. Drafting and structure were AI-assisted;
+accountability for claims, limits, and publication decisions remains with Jade
+Zhao. Practice bridge only to ServeIT Clinic and Serve-AI (PIT-UN); Serve-AI
+project materials are CC~BY-SA~4.0 ... credit Serve-AI / ServeIT Clinic (IU
+Luddy). This writeup is not Serve-AI licensed material and is not IU-endorsed
+research.
+
+\begin{thebibliography}{9}
+\bibitem{wcag21}
+W3C Web Accessibility Initiative,
+\textit{Web Content Accessibility Guidelines (WCAG) 2.1},
+W3C Recommendation, 5~June~2018.
+\url{https://www.w3.org/TR/WCAG21/}.
+
+\bibitem{serveit}
+ServeIT Clinic, Luddy School of Informatics, Computing, and Engineering,
+Indiana University.
+\url{https://serveit.luddy.indiana.edu/}.
+
+\bibitem{serveai}
+Serve-AI project page (ServeIT Clinic / PIT-UN track).
+\url{https://serveit.luddy.indiana.edu/serve-ai/index.html}.
+\end{thebibliography}
+
+\end{document}
