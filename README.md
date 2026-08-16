@@ -1,6 +1,8 @@
 # Madrid · AI Ethics · Public Systems
 
-Reflection notes and research scaffold from **Spring 2026** at **Universidad Complutense de Madrid** (IU Overseas Study). Not a travel log ... a working notebook on how public services, civic apps, and everyday bureaucracy feel when you are the outsider.
+Reflection notes and research scaffold from **Spring 2026** at **Universidad Complutense de Madrid** (IU Overseas Study). Not a travel log ... a working notebook on **systems friction** in public services, civic apps, and everyday bureaucracy when you are the outsider, plus a public-safe essay on **AI ethics in those services** (transparency, access before automation, accountability and auditability, human override).
+
+EU politics coursework (`POLS-Y 350`) supplied governance vocabulary for reading headlines. **This is not an EU AI Act compliance project**, not legal advice, and not a controlled study.
 
 **Author:** [Jade Zhao](https://github.com/jadexzhao) · Informatics @ IU Luddy · May 2027  
 **Semester:** Spring 2026 · Complutense, Madrid · Luddy Study Abroad & HIEP Grant  
