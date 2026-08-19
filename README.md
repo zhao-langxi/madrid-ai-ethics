@@ -4,9 +4,11 @@ Reflection notes and research scaffold from **Spring 2026** at **Universidad Com
 
 EU politics coursework (`POLS-Y 350`) supplied governance vocabulary for reading headlines. **This is not an EU AI Act compliance project**, not legal advice, and not a controlled study.
 
-**Author:** [Jade Zhao](https://github.com/jadexzhao) · Informatics @ IU Luddy · May 2027  
+**Author:** [Jade Zhao](https://github.com/zhao-langxi) · Informatics @ Indiana University · Luddy HIEP Scholar · Expected May 2027  
 **Semester:** Spring 2026 · Complutense, Madrid · Luddy Study Abroad & HIEP Grant  
 **License:** [MIT](LICENSE) · personal research notes · **not** Serve-AI materials by default
+
+Essays + research door: [zhao-langxi.github.io/zhao-langxi](https://zhao-langxi.github.io/zhao-langxi/) · [resume (PDF)](https://jlzhao.pages.iu.edu/resume.pdf) · Law-adjacent pointer: [AI and law](https://zhao-langxi.github.io/zhao-langxi/notes/ai-and-law.html)
 
 ## Lineage · Why I Do This
 
